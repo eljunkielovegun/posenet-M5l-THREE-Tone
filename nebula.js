@@ -38,7 +38,7 @@ function init() {
             cloudParticles.push(cloud);
             scene.add(cloud);
             }
-
+//lights
             let directionalLight = new THREE.DirectionalLight(0xff8c19);
             directionalLight.position.set(0,0,1);
             scene.add(directionalLight);
